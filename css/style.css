@@ -1,6 +1,6 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: bisque;
 }
 
 #header {
@@ -104,7 +104,6 @@ body {
     width: 750px;
     text-align: center;
     font-size: large;
-    background-color: bisque;
 }
 
 #donate-plan {
@@ -221,4 +220,65 @@ body {
     text-decoration: none;
     text-align: center;
     padding-top: 5px;
+}
+
+#updates {
+    text-align: center;
+}
+
+#updates h1 {
+    font-size: 30px;
+}
+
+#updates p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#email {
+    background-color: rgb(147, 145, 145);
+    height: 30px;
+    width: 200px;
+    font-weight: 500px;
+    margin: 0px 0px 0px 0px;
+}
+
+#subscribe {
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+#box {
+    height: 100px;
+    width: 700px;
+    background-color: bisque;
+    margin-left: 27%;
+}
+
+#box input {
+    margin-top: 38px;
+}
+
+#footer {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#footer h1 {
+    padding-top: 10px;
+    color: red;
+}
+
+#footer p {
+    color: white;
 }
